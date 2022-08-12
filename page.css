@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Minecraft', sans-serif;
+}
+
+.circle {
+    margin-top: 3%;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    background-color: peachpuff;
+    display: inline-block;
+  }
+
+.rectangle {
+  height: 250px;
+  width: 125px;
+  border-radius: 0 0 50% 50%;
+  border-style: solid;
+  border-color: black;
+  background-color: peachpuff;
+  display: block;
+  margin-left: 320.5px;
+}
+
+.button {
+    font-family: 'Minecraft', sans-serif;
+    display: flex;
+    border: 3px solid green;
+}
+
+
+p {
+    color: blue;
+}
+
+.hidden {
+    display: none !important;
+}
